@@ -1,0 +1,71 @@
+body {
+    background-color: #181818;
+}
+
+.navBar {
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    margin-left: 0;
+    background-color: #202020;
+    margin-bottom: 10px;
+}
+
+#main {
+    padding-top: 60px;
+    position: static;
+    display: flex;
+    
+}
+
+.centerBlock {
+    margin-bottom: 20px;
+}
+
+#videoWindow {
+    border: 1px solid white;
+    
+    width: 70vw;
+    height: 35vw;
+
+}
+
+#sideBar {
+    border: 1px solid yellow;
+    width: 20vw;
+    height: 100vw;
+    margin-left: 20px;
+    display: block;
+
+}
+
+#videoInfo {
+    border: 1px solid aqua;
+    width: 70vw;
+    height: 5vw;
+
+}
+
+#youtuberInfo {
+    border: 1px solid red;
+    width: 70vw;
+    height: 10vw;
+}
+
+#commentSection {
+    border: 1px solid green;
+    width: 70vw;
+    height: 40vw;
+}
+
+#centerColumn {
+    margin-left: 80px;
+}
+
+#videoEmbed {
+    height: 35vw;
+    width: 70vw;
+}
