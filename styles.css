@@ -1,5 +1,8 @@
 body {
     background-color: #181818;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: 700;
 }
 
 .navBar {
@@ -29,7 +32,7 @@ body {
     border: 1px solid white;
     
     width: 70vw;
-    height: 35vw;
+    height: 80vh;
 
 }
 
@@ -45,14 +48,33 @@ body {
 #videoInfo {
     border: 1px solid aqua;
     width: 70vw;
-    height: 5vw;
+    height: 10vh;
 
+}
+
+#videoTitle {
+    font-weight: 1.2em;
 }
 
 #youtuberInfo {
     border: 1px solid red;
     width: 70vw;
     height: 10vw;
+    padding-top: 15px;
+}
+
+#youtuberIcon {
+    border: 1px solid pink;
+    width: 64px;
+    height: 64px;
+    margin: 0 10px 0 0;
+    display: inline-flex;
+}
+
+#youtuberName {
+    display: inline-block;
+    border: 1px solid pink;
+    
 }
 
 #commentSection {
@@ -66,6 +88,19 @@ body {
 }
 
 #videoEmbed {
-    height: 35vw;
+    height: 80vh;
     width: 70vw;
+}
+
+#viewCount {
+    display:inline;
+}
+
+#options {
+    width:25vw;
+    height: auto;
+    border: 1px solid white;
+    display: inline-flex;
+    float: right;
+    justify-content: right;
 }
